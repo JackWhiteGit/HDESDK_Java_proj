@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HDESDK_Java_proj</string>
+    <string name="output">output</string>
+    <string name="input">input</string>
+</resources>

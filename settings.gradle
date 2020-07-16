@@ -1,0 +1,3 @@
+include ':hdesdk_java_lib'
+include ':app'
+rootProject.name = "HDESDK_Java_proj"
