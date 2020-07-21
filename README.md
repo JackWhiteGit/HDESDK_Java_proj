@@ -20,7 +20,7 @@ ticket comments.
 You can also use the Support SDK without our UI, and build your own UI on top of our API providers. This takes a little more development time but gives you more control. To find out more, see API providers.
 
 ## What you need to get started
-You need HelpDeskEddy system account and apiKey for API access. 
+You need HelpDeskEddy account and apiKey for API access. 
 
 ## Getting up and running
 Add the SDK to your project by including the following snippets in the build.gradle file:
