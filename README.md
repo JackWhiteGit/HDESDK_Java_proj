@@ -10,11 +10,11 @@ Minimum Android version: API level 24 (Nougat / 7.0)
 ## What is the Support SDK?
 The Support SDK helps you add the following features to your app:
 
-Show Knowledge Base content
-Show available departments
-Show/create/update:
-tickets
-users
+Show Knowledge Base content<br/>
+Show available departments<br/>
+Show/create/update:<br/>
+tickets<br/>
+users<br/>
 ticket comments.
 
 You can also use the Support SDK without our UI, and build your own UI on top of our API providers. This takes a little more development time but gives you more control. To find out more, see API providers.
