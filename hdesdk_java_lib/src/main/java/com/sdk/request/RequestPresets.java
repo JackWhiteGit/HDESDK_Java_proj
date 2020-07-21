@@ -7,8 +7,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * Request options generetion
+ */
 public class RequestPresets {
 
+    /**
+     *
+     * @param request_type  type of API request
+     * @param options_arr  request options
+     * @return Map <String, String>, request options for needed request type
+     */
     public Map<String, String> RequestOptions(String request_type, Map<String, String> options_arr) {
         String id = "";
         String ticket_id = "";
@@ -258,6 +267,12 @@ public class RequestPresets {
         return options.get(request_type);
     }
 
+    /**
+     *
+     * @param request_type type of API request
+     * @param options_arr  request options
+     * @return String, request params for current request type
+     */
     public String RequestData (String request_type, Map<String, String> options_arr){
 
         StringBuilder requerstData = new StringBuilder();
@@ -292,6 +307,11 @@ public class RequestPresets {
         return requerstData.toString();
     }
 
+    /**
+     * String Url encode
+     * @param value some option
+     * @return String, URL encoded option
+     */
     private static String encodeValue(String value) {
         try {
             return URLEncoder.encode(value, StandardCharsets.UTF_8.toString());
@@ -300,6 +320,11 @@ public class RequestPresets {
         }
     }
 
+    /**
+     * String last symbol cleaner
+     * @param str params string
+     * @return String, clean params string
+     */
     public static String removeLastCharacter(String str) {
         String result = null;
         if ((str != null) && (str.length() > 0)) {

@@ -14,6 +14,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * Request construct class
+ */
 public class RequestHttp {
 
     private String user_email;
@@ -21,6 +24,12 @@ public class RequestHttp {
     private String hde_url;
     private String auth_token;
 
+    /**
+     *
+     * @param user_email email address for access
+     * @param apikey API key of your HelpDeskEddy profile
+     * @param hde_url URL of your HelpDeskEddy system
+     */
     public RequestHttp(String user_email, String apikey, String hde_url) {
         this.user_email = user_email;
         this.apikey = apikey;
@@ -28,6 +37,12 @@ public class RequestHttp {
         this.auth_token = new Auth().AuthKey(user_email, apikey);
     }
 
+    /**
+     * Request generetion method
+     * @param request_type type of API request
+     * @param options_arr request options
+     * @return JSON String, HelpDeskEddy API answer
+     */
     public String Request (String request_type, Map<String, String> options_arr){
         String line = "";
         byte[] dataPost = new byte[0];
