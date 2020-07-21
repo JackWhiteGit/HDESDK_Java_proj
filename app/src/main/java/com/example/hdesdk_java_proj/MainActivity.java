@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         protected String doInBackground(String... params) {
             Map<String, String> options  = new HashMap<String, String>();
-            options.put("title", "Problem with email Android againg2");
-            options.put("description", "Problem with email Android");
+            options.put("title", "Problem with email");
+            options.put("description", "Problem with email");
             options.put("sla_date", "17.07.2020 00:00");
             options.put("priority_id", "1");
             options.put("user_email", "example@example.com");
