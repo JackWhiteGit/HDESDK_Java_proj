@@ -6,7 +6,8 @@ This page gives you the basic steps for getting up and running with the Support 
 ## The SDK has the following requirements:
 
 Minimum Android version: API level 24 (Nougat / 7.0)
-What is the Support SDK?
+
+## What is the Support SDK?
 The Support SDK helps you add the following features to your app:
 
 Show Knowledge Base content
