@@ -1,7 +1,7 @@
 HelpDeskEddy Java Android SDK
 ==================
 
-This page gives you the basic steps for getting up and running with the Support SDK.
+This page gives you the basic steps for getting up and running with the HelpDeskEddy SDK.
 
 ## The SDK has the following requirements:
 
